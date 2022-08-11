@@ -1,0 +1,87 @@
+*{
+    font: normal 14pt Verdana;
+}
+
+html, body {
+    height: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to top,rgb(66, 66, 66),rgb(69, 63, 102));
+    text-align: center;
+}
+
+form{
+    margin: auto;
+    width: 80%;
+    background-color: rgb(100, 237, 111);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.title{
+    color: white;
+    font-size: 20pt;
+}
+
+.dados{
+    display: flex;
+    background-color: rgb(224, 223, 220);
+    margin: auto;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.proprietario{
+    margin: auto;
+    width: 40%;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.residente{
+    margin: auto;
+    width: 40%;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+input{
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    width: 250px;
+    border: solid 1px rgb(182, 180, 180);
+}
+
+#submit{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 40px;
+    background-color: green;
+    color: white;
+}
+
+#submit:hover{
+    box-shadow: 0px 0px 5px green;
+}
+
+select{
+    border-radius: 5px;
+    border: none;
+    width: 250px;
+}
